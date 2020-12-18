@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Rusewww/CLionProjects/PRACTIC2/lib.h
+stdlib.h
+-
+
+/home/Rusewww/CLionProjects/PRACTIC2/main.c
+stdlib.h
+-
+time.h
+-
+string.h
+-
+lib.h
+/home/Rusewww/CLionProjects/PRACTIC2/lib.h
+
